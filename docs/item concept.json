@@ -1,0 +1,23 @@
+{
+  "id" : 500,
+  "ref" : "default/Item",
+  "state" : 0,
+
+  "properties" : [
+    {
+      "type" : "Item.Durability",
+      "properties" : [
+        {
+          "Health" : 100
+        }
+      ],
+      "function" : {
+        "type" : "Item.DamageItem",
+        "properties" : {
+          "min" : 100,
+          "max" : 100
+        }
+      }
+    }
+  ] 
+}
