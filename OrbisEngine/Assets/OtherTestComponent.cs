@@ -5,6 +5,7 @@ using OrbisEngine.ItemSystem;
 
 public class OtherTestComponent : ItemComponent {
 
+    public OtherTestComponent(IItem source) : base(source) { }
     public override void HandleMessage(string type, IMessage message)
     {
         TestMessage testMessage = message as TestMessage;

@@ -7,7 +7,7 @@ namespace OrbisEngine.ItemSystem
     [System.Serializable]
     public abstract class Item : IItem
     {
-        public string Name = "Unamed Item";
+        public string Name = "Unamed Item"; //Clean: this may need removing
 
         public List<IComponent> m_Components;
         public List<IComponent> Components {

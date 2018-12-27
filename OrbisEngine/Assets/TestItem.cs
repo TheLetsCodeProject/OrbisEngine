@@ -9,7 +9,8 @@ public class TestItem : Item {
     {
         m_Components = new List<IComponent>() {
             new TestComponent(this),
-            new OtherTestComponent()
+            new OtherTestComponent(this),
+            new ItemStats(this)
         };
     }
 
